@@ -1,0 +1,25 @@
+.desc {
+  font-family: sans-serif;
+  color: $plain-black;
+  text-decoration: none;
+}
+.card {
+  background-color: white;
+  font-family: sans-serif; }
+  .card img {
+    width: 100%;
+    height: auto; }
+
+.column {
+  width: 25%; }
+
+* {
+  box-sizing: border-box; }
+
+img {
+  vertical-align: middle; }
+
+h3 {
+  position: relative;
+  font-size: 30px;
+  color: black; }
