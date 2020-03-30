@@ -1,7 +1,8 @@
 /******************************************************************
 Theme Name: Uncut Theme
 Theme URI: http://www.themble.com/bones
-Description: This site was built using the Bones Development Theme. For more information about Bones or to view documentation, you can visit the <a href="https://github.com/eddiemachado/bones/issues" title="Bones Issues">Bones Issues</a> page on Github. You'll want to customize this for your clients with your own information.
+Description: This site was built using the Uncut Development Theme.
+
 Author: Michael Flores
 Author URI: http://www.uncutdaily.com
 Version: 1.7
@@ -11,24 +12,14 @@ License: WTFPL
 License URI: http://sam.zoy.org/wtfpl/
 Are You Serious? Yes.
 
-
-MAKE SURE TO READ BELOW BEFORE GETTING STARTED FOR THE FIRST TIME!
+READ BELOW BEFORE GETTING STARTED!
 ------------------------------------------------------------------
 
-You may be thinking…
-
-WHOA, WHOA, WHOA…WHAT HAPPENED HERE?
-
-But before you freak out, let me take a few minutes to explain.
-
-Bones now uses Sass by default. If you prefer using regular CSS,
+Uncut now uses Sass by default. If you prefer using regular CSS,
 then feel free to modify this theme how you like and keep a copy
 as your own personal starting point.
 
-DON'T DISMISS IT JUST YET THOUGH, USING Sass ISN'T AS COMPLICATED AS YOU THINK.
-
-It does take a few minutes to wrap your head around, but it will all
-be worth it. Need a quick intro? Here are a few quick reads:
+Need a quick intro? Here are a few quick reads:
 
 http://simplebits.com/notebook/2013/11/13/sass-book/ (BUY THIS)
 http://cognition.happycog.com/article/preprocess-this
@@ -61,9 +52,7 @@ with it, just get one of the automated applications.
 
 ---------------------------------------------------------------
 
-Remember, once you download Bones it's up to you how to use it,
-so go nuts. Set things up and develop in a way that's easiest for
-you. If using Sass is still a bit confusing for you, then remove it
+If using Sass is still a bit confusing for you, then remove it
 and customize this template as you see fit.
 
 If you're a bit uneasy about using Sass or just want a familiar setup,
@@ -72,25 +61,12 @@ can become by just TRYING out new technologies. It may be tough at
 first but it WILL make you a better developer. TRUST ME ON THIS. Give
 it a week, maybe two, and you will never go back.
 
-If you STILL can't get on board and want to jump ship, that's cool.
-Bones is not for everyone and that's ok, I mean I'm not hurt by it,
-whatever, I never liked you anyway. Here are some other alternatives
-if you're looking for a blank starter theme. I'll just be here waiting
-by the window, in case you ever decide to come back.
+If you're looking for a blank starter theme. 
 
-http://roots.io/starter-theme (way more complex but has a ton of cool features)
 http://html5reset.org (super clean and great markup)
-https://github.com/viewportindustries/starkers (not sure if it's still active, but still good)
 
-That's it. It's time to jump in and get your hands dirty.
-Seriously, why are you still reading this? Get to work!
 If you have any issues or problems, you can create an issue on github
-or find me on Twitter: @eddiemachado (SHAMELESS PLUG!).
-
-Happy Developing!
-
-(When you're done, you may want to remove all this nonsense before
-passing it along to your client.)
+or find eddie on Twitter: @eddiemachado .
 
 ******************************************************************/
 

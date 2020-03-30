@@ -16,39 +16,34 @@
 				</nav>
 
 				<br>
-                <center>
-                   	<a href="https://www.youtube.com/" class="fa fa-youtube" title="YouTube"></a>
-                   	<a href="https://vimeo.com/" class="fa fa-vimeo" title="Vimeo"></a>
-               	</center>
+                <div style="text-align: center;">
+                	<div>
+	                   	<a href="https://www.youtube.com/" class="fa fa-youtube" title="YouTube" target="_blank"></a>
+	                   	<a href="https://vimeo.com/" class="fa fa-vimeo" title="Vimeo" target="_blank"></a>
+	                   	<a href="https://www.reddit.com/" class="fa fa-reddit" title="Reddit" target="_blank"></a>
+               		</div>
                 	
-				<center>
-					<div class = "footerbox">
+					<div class="footerbox">
 						Information:<br>
 						<a style="color: white;" href="http://uncutdaily.com/about/">About Us</a><br>
-						Location - United States
+						Location: United States
 					</div>
 
-					<div class = "footerbox">
+					<div class="footerbox">
 						Resources:<br>
 						<a style="color: white;" href="http://uncutdaily.com/contact/">Contact Us</a><br>
 						<a style="color: white;" href="http://uncutdaily.com/privacy-policy/">Privacy Policy</a>
 					</div>
-				</center>
-
-				<center>
-					<div class="made">Made with &#10084;</div>
-					<p style = "color:white; font-family: 'Roboto', sans-serif; background-color: green; padding: 20px; margin-bottom: 0px;">&copy
-					2019 - 2020 Uncut Daily. All Rights Reserved.
-					</p>
-				</center>
+				
+					<div class="made">Made with &#10084; in NYC</div>
+					<div id="copyright">&copy; 2019-2020 Uncut Daily. All Rights Reserved.</div>
+				</div>
 							
 			</footer>
-
 		</div>
 
 		<?php // all js scripts are loaded in library/bones.php ?>
 		<?php wp_footer(); ?>
 	
 	</body>
-
 </html> <!-- end of site. what a ride! -->

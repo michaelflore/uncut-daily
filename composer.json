@@ -1,11 +1,15 @@
 {
-    "name": "squibblefish/bones-theme",
+    "name": "Uncut Theme",
     "description": "Bare theme for Wordpress",
     "type": "wordpress-theme",
     "authors": [
         {
             "name": "sfisherGizmo",
             "email": "stephen@squibble-fish.com"
+        }
+        {
+            "name": "michael flores",
+            "email": "michael.fx.098@gmail.com"
         }
     ],
     "require": {}

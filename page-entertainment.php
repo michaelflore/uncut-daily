@@ -19,12 +19,16 @@
 
 
 			<div id="content">
-
 				<div id="inner-content">
-
+					<div class="container-fluid">
+                    <div class="row">
+                    	<div class="col-sm-12">
 						<main id="main">
 							<?php echo do_shortcode('[aiovg_videos]'); ?>
 						</main>
+					    </div>
+					</div>
+				</div>
 				</div>
 			</div>
 

@@ -437,6 +437,9 @@ span.amp {
   font-style: italic; }
 
 /******************************************************************
+Site Name:
+Author:
+
 Stylesheet: Variables
 
 Here is where we declare all our variables like colors, fonts,
@@ -456,6 +459,9 @@ use color variables properly:
 http://sachagreif.com/sass-color-variables/
 */
 /******************************************************************
+Site Name:
+Author:
+
 Stylesheet: Typography
 
 Need to import a font or set of icons for your site? Drop them in
@@ -519,6 +525,9 @@ p {
   font-feature-settings: "liga", "dlig"; }
 
 /******************************************************************
+Site Name:
+Author:
+
 Stylesheet: Sass Functions
 
 You can do a lot of really cool things in Sass. Functions help you
@@ -561,6 +570,9 @@ both compile to:
 width: 65%;
 *********************/
 /******************************************************************
+Site Name:
+Author:
+
 Stylesheet: Mixins Stylesheet
 
 This is where you can take advantage of Sass' great features: Mixins.
@@ -600,6 +612,9 @@ BOX SIZING
 /* NOTE: value of "padding-box" is only supported in Gecko. So
 probably best not to use it. I mean, were you going to anyway? */
 /******************************************************************
+Site Name:
+Author:
+
 Stylesheet: Grid Stylesheet
 
 I've seperated the grid so you can swap it out easily. It's
@@ -2035,18 +2050,8 @@ query for retina AND a certain size if you want. Go Nuts.
   */ }
 body {
   background-color: #d9d9d9;
-  margin: 0; }
-
-h1 {
-  color: white; }
-
-h2, p {
-  color: black; }
-
-h3 {
-  position: relative;
-  font-size: 30px;
-  color: black; }
+  margin: 0;
+  overflow-x: hidden; }
 
 header {
   background-color: black;
@@ -2059,6 +2064,64 @@ nav ul {
   margin: 0;
   background-color: green; }
 
+h1 {
+  color: white; }
+
+h2, p {
+  color: black; }
+
+footer {
+  height: 100%;
+  background-color: black; }
+
+.siteTitle {
+  color: white;
+  font-family: impact;
+  font-size: 50px;
+  text-align: center;
+  padding: 35px; }
+
+.siteTitle span.a {
+  position: center; }
+
+.siteTitle span.b {
+  color: black;
+  background-color: green;
+  border-radius: 10px;
+  padding: 20px;
+  display: inline-block; }
+
+.heading {
+  background-color: #B8B8B8;
+  border: solid;
+  color: black;
+  font-family: sans-serif;
+  font-size: 40px;
+  text-align: center; }
+
+@media screen and (min-width: 476px) {
+  .navbar {
+    padding: 0px; }
+
+  .navbar-expand-sm .navbar-nav .nav-link {
+    padding: 14px 16px; }
+
+  .navbar-expand-sm .navbar-collapse {
+    display: block; } }
+@media screen and (min-width: 476px) {
+  .dropdown:hover .dropdown-menu {
+    display: block; }
+
+  .dropdown-menu {
+    margin-top: 0;
+    background-color: green;
+    min-width: 0px; }
+
+  .dropdown-toggle {
+    margin-bottom: 2px; }
+
+  .navbar .dropdown-toggle, .nav-tabs .dropdown-toggle {
+    margin-bottom: 0; } }
 li a {
   text-decoration: none; }
 
@@ -2087,71 +2150,8 @@ a, a:visited {
 a:hover, a:visited:hover {
   text-decoration-line: none; }
 
-section {
-  font-family: sans-serif;
-  padding: 20px; }
-
-label {
-  font-family: franklin gothic medium; }
-
-img {
-  vertical-align: middle; }
-
-footer {
-  height: 100%;
-  background-color: black; }
-
-.siteTitle {
-  color: white;
-  font-family: impact;
-  font-size: 50px;
-  text-align: center;
-  padding: 50px; }
-
-.siteTitle span:nth-child(2) {
-  background: green;
-  color: #000000;
-  border-radius: 9px;
-  padding: 10px 15px;
-  display: inline-block; }
-
-.heading {
-  background-color: #B8B8B8;
-  border: solid;
-  color: black;
-  font-family: sans-serif;
-  font-size: 40px;
-  text-align: center; }
-
-@media screen and (min-width: 360px) {
-  .navbar {
-    padding: 0px; }
-
-  .navbar-expand-sm .navbar-nav .nav-link {
-    padding: 14px 16px; }
-
-  .navbar-expand-sm .navbar-collapse {
-    display: block; } }
-@media screen and (min-width: 360px) {
-  .dropdown:hover .dropdown-menu {
-    display: block; }
-
-  .dropdown-menu {
-    margin-top: 0;
-    background-color: green;
-    min-width: 0px;
-    opacity: 1; }
-
-  .dropdown-toggle {
-    margin-bottom: 2px; }
-
-  .navbar .dropdown-toggle, .nav-tabs .dropdown-toggle {
-    margin-bottom: 0; } }
 a.fa, a.fa:visited {
   color: white; }
-
-.searchform {
-  float: right; }
 
 .footerbox {
   color: white;
@@ -2164,13 +2164,13 @@ a.fa, a.fa:visited {
 
 .fa {
   padding: 20px;
-  font-size: 25px;
+  font-size: 30px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px; }
 
 .fa:hover {
-  opacity: 0.6; }
+  opacity: 0.7; }
 
 .fa-youtube {
   background: #bb0000;
@@ -2191,7 +2191,7 @@ a.fa, a.fa:visited {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   color: white;
-  padding: 5px; }
+  padding: 10px; }
 
 .desc {
   font-family: sans-serif;
@@ -2206,6 +2206,20 @@ a.fa, a.fa:visited {
   width: 100%;
   height: auto; }
 
+.column {
+  width: 25%; }
+
+* {
+  box-sizing: border-box; }
+
+img {
+  vertical-align: middle; }
+
+h3 {
+  position: relative;
+  font-size: 30px;
+  color: black; }
+
 .rpwe-time {
   font-size: 12px;
   color: black; }
@@ -2213,11 +2227,18 @@ a.fa, a.fa:visited {
 .tags-title {
   color: green; }
 
+section {
+  font-family: sans-serif;
+  padding: 20px; }
+
 .tags {
   color: green; }
 
 #breadcrumbs {
   padding: 10px; }
+
+label {
+  font-family: franklin gothic medium; }
 
 .form {
   background-color: #f2f2f2;
@@ -2231,6 +2252,9 @@ be set to display none.
 *********************/
 @media print {
   /******************************************************************
+  Site Name:
+  Author:
+  
   Stylesheet: Print Stylesheet
   
   This is the print stylesheet. There's probably not a lot

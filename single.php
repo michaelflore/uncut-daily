@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-		<div class="contianer">
+		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-9">
 						
@@ -24,7 +24,6 @@
 								get_template_part( 'post-formats/format', get_post_format() );
 							?>
 
-
 						<?php endwhile; ?>
 
 						<?php else : ?>
@@ -46,11 +45,9 @@
 
 				</div>
 				<div class="col-md-3">	
-
 					<?php get_sidebar(); ?>
-
 				</div>
 			</div>
 		</div>
-
+		
 <?php get_footer(); ?>

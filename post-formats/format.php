@@ -7,9 +7,7 @@
                  * you can just copy ths stuff in here and replace the post format thing in
                  * single.php.
                  *
-                 * The other formats are SUPER basic so you can style them as you like.
-                 *
-                 * Again, If you want to remove post formats, just delete the post-formats
+                 * If you want to remove post formats, just delete the post-formats
                  * folder and replace the function below with the contents of the "format.php" file.
                 */
               ?>
@@ -76,7 +74,7 @@
 
                 </footer> <?php // end article footer ?>
 
-                <?php //comments_template(); ?>
+                <?php comments_template(); ?>
 
               </article> <?php // end article ?>
             </div>

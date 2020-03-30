@@ -1,4 +1,4 @@
-# BONES CHANGE LOG & HISTORY
+# Uncut CHANGE LOG & HISTORY
 
 This theme is meant to make development easier & take
 advantage of modern web development & design techniques.

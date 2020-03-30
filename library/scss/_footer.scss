@@ -8,13 +8,13 @@
   display: inline-block; }
 .fa {
   padding: 20px;
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
 }
 .fa:hover {
-    opacity: 0.7;
+    opacity: 0.6;
 }
 .fa-youtube {
   background: #bb0000;
@@ -22,7 +22,12 @@
   border-radius: 50%;
 }
 .fa-vimeo {
-  background: #00CC99;
+  background: #45bbff;
+  color: white;
+  border-radius: 50%;
+}
+.fa-reddit {
+  background: #ff5700;
   color: white;
   border-radius: 50%;
 }
@@ -30,5 +35,12 @@
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	color: white;
-	padding: 10px;
+	padding: 5px;
+}
+#copyright {
+  color:white; 
+  font-family: 'Roboto', sans-serif; 
+  background-color: green; 
+  padding: 20px; 
+  margin-bottom: 0px;
 }

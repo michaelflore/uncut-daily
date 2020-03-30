@@ -1,8 +1,6 @@
 <?php
 /*
-Author: Eddie Machado
-URL: http://themble.com/bones/
-
+Author: Michael Flores
 This is where you can drop your custom functions or
 just edit things like thumbnail sizes, header images,
 sidebars, comments, etc.
@@ -18,7 +16,6 @@ require_once( 'library/bones.php' );
 LAUNCH BONES
 Let's get everything up and running.
 *********************/
-
 
 
 // Register Custom Navigation Walker
@@ -183,13 +180,14 @@ add_action( 'customize_register', 'bones_theme_customizer' );
 function bones_register_sidebars() {
 	register_sidebar(array(
 		'id' => 'sidebar1',
-		'name' => __( 'Sidebar 1', 'bonestheme' ),
-		'description' => __( 'The first (primary) sidebar.', 'bonestheme' ),
+		'name' => __( 'sidebar1', 'bonestheme' ),
+		'description' => __( 'The first sidebar', 'bonestheme' ),
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget' => '</div>',
 		'before_title' => '<h4 class="widgettitle">',
 		'after_title' => '</h4>',
 	));
+
 
 	/*
 	to add more sidebars or widgetized areas, just copy

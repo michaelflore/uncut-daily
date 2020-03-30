@@ -1,7 +1,4 @@
 /******************************************************************
-Site Name:
-Author:
-
 Stylesheet: IE Stylesheet
 
 So instead of using the respond.js file to add media query support
@@ -18,9 +15,6 @@ understand (what's inside the media queries). We also need to
 import the mixins file so SASS can understand the variables.
 ******************************************************************/
 /******************************************************************
-Site Name:
-Author:
-
 Stylesheet: Variables
 
 Here is where we declare all our variables like colors, fonts,
@@ -40,9 +34,6 @@ use color variables properly:
 http://sachagreif.com/sass-color-variables/
 */
 /******************************************************************
-Site Name:
-Author:
-
 Stylesheet: Mixins Stylesheet
 
 This is where you can take advantage of Sass' great features: Mixins.
@@ -82,9 +73,6 @@ BOX SIZING
 /* NOTE: value of "padding-box" is only supported in Gecko. So
 probably best not to use it. I mean, were you going to anyway? */
 /******************************************************************
-Site Name:
-Author:
-
 Stylesheet: IE Grid Styles
 
 Since the example grid is based on media queries, so rather than
@@ -96,9 +84,6 @@ whatever you use in here.
 
 ******************************************************************/
 /******************************************************************
-Site Name:
-Author:
-
 Stylesheet: 481px and Up Stylesheet
 
 This stylesheet is loaded for larger devices. It's set to

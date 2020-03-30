@@ -1,4 +1,3 @@
-				
 				<div id="sidebar1" class="" role="complementary">
 
 					<?php if ( is_active_sidebar( 'sidebar1' ) ) : ?>
@@ -20,4 +19,3 @@
 					<?php endif; ?>
 
 				</div>
-                 

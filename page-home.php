@@ -14,11 +14,17 @@
 ?>
 
 <?php get_header(); ?>
-        <h2 class ="heading"><i class="fas fa-grip-lines"></i> Trending <i class="fas fa-grip-lines"></i></h2>
-			<?php echo do_shortcode('[smartslider3 slider=1]'); ?>
-			<br>
+    <h2 class="heading" style="margin-bottom: 0;">
+        <i class="fas fa-grip-lines"></i> Trending <i class="fas fa-grip-lines"></i>
+    </h2>
 
-		<h2 class = "heading"><i class="fas fa-grip-lines"></i> Latest Stories <i class="fas fa-grip-lines"></i></h2>
+		<?php echo do_shortcode('[smartslider3 slider=1]'); ?><br>
+
+	<h2 class="heading">
+		<i class="fas fa-grip-lines"></i> Latest Stories <i class="fas fa-grip-lines"></i>
+	</h2>
+
+		<div class="container-fluid">
 			<div class="row">
 				<?php
 	              $args = array(
@@ -36,29 +42,31 @@
 	            //if( $loop->current_post != 0 && !is_paged() ) :
 
 	          	?>
-
-	          	<div class="col-xl-3">
-	               <div class="container">
-					  <div class="card">
-					  	<a href="<?php the_permalink(); ?>">
-					    	<?php the_post_thumbnail('full'); ?> 
-					    <div class="card-body">
-					      <h3><?php the_title(); ?></h3>
-					      <span><?php the_date(); ?></span>
-					    </div>
-					    </a>
-					  </div>
+		          	<div class="col-sm-3">
+		               <div class="container">
+						  <div class="card">
+						  	<a href="<?php the_permalink(); ?>">
+						    	<?php the_post_thumbnail('full'); ?> 
+						    <div class="card-body">
+						      <h3><?php the_title(); ?></h3>
+						      <span><?php the_date(); ?></span>
+						    </div>
+						    </a>
+						  </div>
+						</div>
+						<br>
 					</div>
-					<br>
-				</div>
-		          <?php
-		            //endif;
-		            endwhile;
-		            endif;
-		          ?>
-      		</div>
-      		<br>
-			<h2 class = "heading"><i class="fas fa-grip-lines"></i> Watch <i class="fas fa-grip-lines"></i></h2>
+		         <?php
+		          //endif;
+		          endwhile;
+		          endif;
+		         ?>
+      		</div><br>
+
+			<h2 class="heading">
+				<i class="fas fa-grip-lines"></i> Watch <i class="fas fa-grip-lines"></i>
+			</h2>
+				
 				<?php echo do_shortcode('[aiovg_videos]'); ?>
-          
+		</div>  
 <?php get_footer(); ?>
