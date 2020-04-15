@@ -38,11 +38,11 @@ input[type="color"],
 select,
 textarea,
 .field {
-  display: block;
+  display:block;
   height: 40px;
   line-height: 1em;
   padding: 0 12px;
-  margin-bottom: 14px;
+  margin-bottom: 0;
   font-size: 1em;
   color: $text-color;
   border-radius: 3px;

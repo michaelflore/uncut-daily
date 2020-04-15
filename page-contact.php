@@ -18,9 +18,7 @@
 <h2 class = "heading"><i class="fas fa-grip-lines"></i> Contact <i class="fas fa-grip-lines"></i></h2>
 
 <div id="content">
-
-        <div id="inner-content">
-
+  <div id="inner-content">
             <main id="main" >
 
               <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -62,15 +60,7 @@
               <?php endwhile; endif; ?>
 
             </main>
-
-            
-
-        </div>
-
-      </div>
-
-
-
-
+  </div>
+</div>
 
 <?php get_footer(); ?>

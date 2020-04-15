@@ -26,6 +26,8 @@ the whole project.
 /**
  * Correct `block` display not defined in IE 8/9.
  */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
 article,
 aside,
 details,
@@ -964,7 +966,7 @@ textarea,
   height: 40px;
   line-height: 1em;
   padding: 0 12px;
-  margin-bottom: 14px;
+  margin-bottom: 0;
   font-size: 1em;
   color: #5c6b80;
   border-radius: 3px;
@@ -1411,9 +1413,7 @@ POSTS & CONTENT STYLES
       color: black; }
 
 /* end .hentry */
-.single-title,
-.page-title,
-.entry-title {
+.page-title {
   margin: 0; }
 
 /* want to style individual post classes? Booya! */
@@ -1427,7 +1427,7 @@ POSTS & CONTENT STYLES
 /* style by tag (i.e. tag-news) */
 /* post meta */
 .byline {
-  color: #9fa6b4;
+  color: #f8f9fa;
   font-style: italic;
   margin: 0; }
 
@@ -1516,7 +1516,8 @@ POSTS & CONTENT STYLES
 /* end .gallery */
 /* gallery caption styles */
 .tags {
-  margin: 0; }
+  margin: 0;
+  color: green; }
 
 /******************************************************************
 PAGE NAVI STYLES
@@ -1526,7 +1527,8 @@ PAGE NAVI STYLES
   margin: 1.5em 0; }
 
 .pagination {
-  text-align: center; }
+  text-align: center;
+  height: fit-content; }
   .pagination ul {
     display: inline-block;
     background-color: #fff;
@@ -2033,6 +2035,7 @@ query for retina AND a certain size if you want. Go Nuts.
   the original dimensions and you are good to go. 
   
   */ }
+/* General Styles */
 body {
   background-color: #d9d9d9;
   margin: 0; }
@@ -2041,7 +2044,7 @@ h1 {
   color: white; }
 
 h2, p {
-  color: black; }
+  color: #000000; }
 
 h3 {
   position: relative;
@@ -2049,7 +2052,7 @@ h3 {
   color: black; }
 
 header {
-  background-color: black;
+  background-color: #000000;
   padding: 5px; }
 
 nav {
@@ -2065,20 +2068,20 @@ li a {
 nav li a, nav li a:visited {
   font-family: impact;
   font-size: 22px;
-  color: black;
+  color: #000000;
   text-decoration: none; }
 nav li a:hover, nav li a:visited:hover {
   background-color: white;
   color: black; }
 
 li a, li a:visited {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 22px;
-  color: black;
+  color: #000000;
   text-decoration: none; }
 
 li a:hover, li a:visited:hover {
-  color: black; }
+  color: #000000; }
 
 a, a:visited {
   text-align: center;
@@ -2089,17 +2092,20 @@ a:hover, a:visited:hover {
 
 section {
   font-family: sans-serif;
-  padding: 20px; }
+  padding: 30px; }
 
 label {
   font-family: franklin gothic medium; }
+
+figcaption {
+  text-align: center; }
 
 img {
   vertical-align: middle; }
 
 footer {
   height: 100%;
-  background-color: black; }
+  background-color: #000000; }
 
 .siteTitle {
   color: white;
@@ -2112,18 +2118,19 @@ footer {
   background: green;
   color: #000000;
   border-radius: 9px;
-  padding: 10px 15px;
+  padding: 10px 25px;
+  margin: 5px;
   display: inline-block; }
 
 .heading {
   background-color: #B8B8B8;
   border: solid;
-  color: black;
+  color: #000000;
   font-family: sans-serif;
   font-size: 40px;
   text-align: center; }
 
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 320px) {
   .navbar {
     padding: 0px; }
 
@@ -2132,7 +2139,7 @@ footer {
 
   .navbar-expand-sm .navbar-collapse {
     display: block; } }
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 320px) {
   .dropdown:hover .dropdown-menu {
     display: block; }
 
@@ -2150,24 +2157,21 @@ footer {
 a.fa, a.fa:visited {
   color: white; }
 
-.searchform {
-  float: right; }
-
 .footerbox {
   color: white;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   border: solid;
   border-color: green;
   width: 250px;
   margin: 20px;
+  padding: 10px;
   display: inline-block; }
 
 .fa {
-  padding: 20px;
-  font-size: 25px;
-  text-align: center;
+  padding: 15px;
+  font-size: 20px;
   text-decoration: none;
-  margin: 5px 2px; }
+  margin: 5px 5px; }
 
 .fa:hover {
   opacity: 0.6; }
@@ -2188,15 +2192,33 @@ a.fa, a.fa:visited {
   border-radius: 50%; }
 
 .made {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   color: white;
+  margin: 5px;
   padding: 5px; }
 
-.desc {
-  font-family: sans-serif;
-  color: black;
-  text-decoration: none; }
+#copyright {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  background-color: green;
+  padding: 20px;
+  margin-bottom: 0px; }
+
+.form {
+  background-color: #f2f2f2;
+  padding: 100px; }
+
+#breadcrumbs {
+  padding: 10px; }
+
+.post-label {
+  background-color: green;
+  color: #000000;
+  font-size: 14px;
+  font-family: "Oswald", sans-serif;
+  padding: 5px;
+  border-radius: 5px; }
 
 .card {
   background-color: white;
@@ -2206,22 +2228,21 @@ a.fa, a.fa:visited {
   width: 100%;
   height: auto; }
 
-.rpwe-time {
-  font-size: 12px;
-  color: black; }
-
 .tags-title {
   color: green; }
 
-.tags {
-  color: green; }
+.aiovg .aiovg-responsive-element {
+  width: 100%; }
 
-#breadcrumbs {
-  padding: 10px; }
+.is-menu {
+  margin: 13px; }
 
-.form {
-  background-color: #f2f2f2;
-  padding: 100px; }
+input.is-search-submit {
+  line-height: unset;
+  height: 40px; }
+
+.is-menu.dropdown {
+  min-width: 280px; }
 
 /*********************
 PRINT STYLESHEET

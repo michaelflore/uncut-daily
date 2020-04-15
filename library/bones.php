@@ -5,7 +5,7 @@ main functions & features reside. If you have
 any custom functions, it's best to put them
 in the functions.php file.
 
-Developed by: Eddie Machado, Michael Flores
+Developed by: Michael Flores
 URL: http://themble.com/bones/
 
   - head cleanup (remove rsd, uri links, junk css, ect)

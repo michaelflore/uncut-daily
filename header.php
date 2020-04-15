@@ -20,9 +20,9 @@
         
         
 		<?php // icons & favicons (for more: http://www.jonathantneal.com/blog/understand-the-favicon/) ?>
-		<!--<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/library/images/apple-touch-icon.png">
-		<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/favicon.png">-->
-		<!--[if IE]>
+		<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/library/images/apple-touch-icon.png">
+		<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/favicon.png">
+		<!--[if IE]
 			<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
 		<![endif]-->
 		<?php // or, set /favicon.ico for IE10 win ?>
@@ -31,11 +31,9 @@
         <meta name="theme-color" content="#121212">
        
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
-        <link rel="shortcut icon" type="image/x-icon" href="https://img.icons8.com/ios-filled/50/000000/video-record.png" />
 		<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
-		<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		
         <script data-ad-client="ca-pub-8150643449478730" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <meta name="google-site-verification" content="z1mRMRraieRvecfeqQUmP9GzHYW0Zx-y5Z_fCh0FfzI" />
 
@@ -43,7 +41,7 @@
 		<?php wp_head(); ?>
 		<?php // end of wordpress head ?>
 
-		<?php // drop Google Analytics Here ?>
+		<?php // Google Analytics Here ?>
 			<!-- Global site tag (gtag.js) - Google Analytics -->
 			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158892841-1"></script>
 			<script>

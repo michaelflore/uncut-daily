@@ -1,19 +1,39 @@
-.desc {
-  font-family: sans-serif;
-  color: $plain-black;
-  text-decoration: none;
+.form {
+  background-color: #f2f2f2;
+  padding: 100px; 
+}
+ #breadcrumbs {
+ 	padding: 10px;
+ }
+.post-label {
+	background-color: green;
+	color: #000000;
+	font-size: 14px;
+	font-family: $oswald;
+	padding: 5px;
+	border-radius: 5px;
 }
 .card {
-  background-color: white;
-  font-family: sans-serif; }
-  .card img {
-    width: 100%;
-    height: auto; }
-
-.rpwe-time {
-  font-size: 12px;
-  color: black;
+	background-color: white;
+	font-family: $sans-serif; 
+}
+.card img {
+	width: 100%;
+	height: auto; 
 }
 .tags-title {
-  color: green;
+	color: green;
+}
+.aiovg .aiovg-responsive-element {
+	width: 100%;
+}
+.is-menu {
+	margin: 13px;
+}
+input.is-search-submit {
+	line-height: unset;
+	height: 40px;
+}
+.is-menu.dropdown {
+	min-width: 280px;
 }

@@ -71,16 +71,9 @@ function bones_ahoy() {
 // let's get this party started
 add_action( 'after_setup_theme', 'bones_ahoy' );
 
-// Foundation
-//wp_enqueue_script( 'what-input', get_template_directory_uri() . '/js/vendor/what-input.min.js', array('jquery'), '', true );
-//wp_enqueue_style( 'foundation-style', get_template_directory_uri() . '/css/foundation.min.css', array(), 'all' );
-//wp_enqueue_script( 'foundation-app', get_template_directory_uri() . '/js/app.js', array('jquery'), '', true );
-//wp_enqueue_script( 'foundation', get_template_directory_uri() . '/js/vendor/foundation.min.js', array('jquery'), '', true );
-
 function theme_add_bootstrap() {
 wp_enqueue_style( 'bootstrap-css', get_template_directory_uri() . '/library/css/bootstrap.min.css' );
 wp_enqueue_style( 'style-css', get_template_directory_uri() . '/library/css/style.css' );
-
 wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/library/js/bootstrap.min.js', array(), '3.0.0', true );
 }
 

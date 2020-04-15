@@ -6,7 +6,7 @@ dashboard. Updates to this page are coming soon.
 It's turned off by default, but you can call it
 via the functions file.
 
-Developed by: Eddie Machado, Michael Flores
+Developed by: Michael Flores
 URL: http://themble.com/bones/
 
 Special Thanks for code & inspiration to:

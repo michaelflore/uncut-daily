@@ -1,3 +1,4 @@
+/* General Styles */
 body {
   background-color: #d9d9d9;
   margin: 0; 
@@ -6,57 +7,67 @@ h1 {
   color: white;
 }
 h2, p {
-  color: $plain-black; }
+  color: #000000; 
+}
 h3 {
   position: relative;
   font-size: 30px;
   color: black;
 }
 header {
-  background-color: $plain-black;
-  padding: 5px; }
+  background-color: #000000;
+  padding: 5px; 
+}
 nav {
-  background-color: green; }
-
+  background-color: green; 
+}
 nav ul {
   margin: 0;
-  background-color: green; }
-li a {
-    text-decoration: none;
+  background-color: green; 
 }
-
+li a {
+  text-decoration: none;
+}
 nav {
   li a, li a:visited {
     font-family: impact;
     font-size: 22px;
-    color: black;
-    text-decoration: none; }
-    li a:hover, li a:visited:hover {
-      background-color: white;
-      color: black; }
+    color: #000000;
+    text-decoration: none; 
+  }
+  li a:hover, li a:visited:hover {
+    background-color: white;
+    color: black; 
+  }
 }
 li a, li a:visited {
-  font-family: 'Roboto', sans-serif;
+  font-family: $roboto;
   font-size: 22px;
-  color: black;
-  text-decoration: none; }
+  color: #000000;
+  text-decoration: none; 
+}
 li a:hover, li a:visited:hover {
-  color: black; }
-
-    
+  color: #000000; 
+}
 a, a:visited {
   text-align: center;
-  color: green; }
-  a:hover, a:visited:hover {
-    text-decoration-line: none; }
+  color: green; 
+}
+a:hover, a:visited:hover {
+  text-decoration-line: none; 
+}
 section {
   font-family: $sans-serif;
-  padding: 20px;
- }
+  padding: 30px;
+}
 label {
-  font-family: franklin gothic medium; }
+  font-family: franklin gothic medium; 
+}
+figcaption {
+  text-align: center;
+}
 img {
   vertical-align: middle; }
 footer {
   height: 100%;
-  background-color: $plain-black; }
+  background-color: #000000; }

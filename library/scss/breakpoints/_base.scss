@@ -279,13 +279,13 @@ POSTS & CONTENT STYLES
 
 		.single-title,
 		.page-title,
-		.entry-title {
-			margin: 0;
-		}
+		.entry-title {}
 
 		.single-title {}
 
-		.page-title {}
+		.page-title {
+			margin: 0;
+		}
 
 		.entry-title {}
 
@@ -303,7 +303,7 @@ POSTS & CONTENT STYLES
 
 		/* post meta */
 		.byline {
-			color: $meta-gray;
+			color: $light-gray;
 			font-style: italic;
 			margin: 0;
 
@@ -485,6 +485,7 @@ POSTS & CONTENT STYLES
 	// the tag output
 	.tags {
 		margin: 0;
+		color: green;
 	}
 
 /******************************************************************
@@ -497,6 +498,7 @@ PAGE NAVI STYLES
 }
 	.pagination{
     text-align: center;
+    height: fit-content;
 
     ul {
       display: inline-block;

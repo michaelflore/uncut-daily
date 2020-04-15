@@ -7,7 +7,7 @@ if ( post_password_required() ) {
 
 ?>
 
-<?php // You can start editing here. ?>
+<?php // Start editing here. ?>
 
   <?php if ( have_comments() ) : ?>
 

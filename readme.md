@@ -13,7 +13,7 @@ License URI: http://sam.zoy.org/wtfpl/
 Are You Serious? Yes.
 
 #### Special Thanks to:
-Paul Irish & the HTML5 Boilerplate
+The HTML5 Boilerplate
 Yoast for some WP functions & optimization ideas
 Andrew Rogers for code optimization
 David Dellanave for speed & code optimization. :)
@@ -23,6 +23,5 @@ https://github.com/eddiemachado/bones/issues
 To view Release & Update Notes, read the CHANGELOG.md file in the main folder.
 
 ## Helpful Tools & Links
-http://themble.com/bones
 Yeoman generator to quickly install Uncut Wordpress theme into your Wordpress theme folder
 https://github.com/0dp/generator-wp-bones
